@@ -1,0 +1,162 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_sodaAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "buySoda",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "restock",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sodaAddress",
+				"outputs": [
+					{
+						"internalType": "contract IsodaPrice",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sodaInventory",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdrawProfits",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "A simple contract to simulate a vending machine that sells \"Digital Sodas\".",
+			"kind": "dev",
+			"methods": {
+				"buySoda()": {
+					"details": "Allows anyone to buy a soda by sending exactly 0.01 ETH."
+				},
+				"getBalance()": {
+					"details": "Allows the owner to see the current Ether balance of the machine."
+				},
+				"restock(uint256)": {
+					"details": "Allows the owner to restock the machine.",
+					"params": {
+						"_amount": "The number of sodas to add to the inventory."
+					}
+				},
+				"withdrawProfits()": {
+					"details": "Allows the owner to withdraw all collected profits."
+				}
+			},
+			"title": "VendingMachine",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"01_interaction-of-contracts/01_hello.sol": "VendingMachine"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"01_interaction-of-contracts/01_hello.sol": {
+			"keccak256": "0x38de6ebf2f82e329932b74fc9d8c4a009186f96075023c35c0107bb2e9509a0f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ee3707e7971c18e5d7a9c53534405b087897562b224976580cdc5d5cb78586e0",
+				"dweb:/ipfs/QmSJcDpDz4FuLJ368p5NfzRYQ5GX5e4wAM4mB1rpBjPABq"
+			]
+		},
+		"01_interaction-of-contracts/IsodaPrice.sol": {
+			"keccak256": "0x7a22dc8b6dd749652023fc3179f9fbfa2b022a583d383a6057fb81e397291775",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://addb35e5b955412e41f369b0a3b1b06b23c8f58cc3f59381fac1dc15dea47a7d",
+				"dweb:/ipfs/QmdMMnf38su6aEXv9s95E4EKhFSUjCScN42SU8XWNUCgdA"
+			]
+		}
+	},
+	"version": 1
+}

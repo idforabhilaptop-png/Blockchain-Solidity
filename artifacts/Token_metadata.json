@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_status",
+						"type": "string"
+					}
+				],
+				"name": "myNumber",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"01_hello.sol": "Token"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"01_hello.sol": {
+			"keccak256": "0x1e352a0e45fcc72f08b36a1bf3c951dd11f778c80bd84121cab1ebdae6f9b30e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3e57ceb0357c3c246a14ff635a276c72e8ce4bced119e91ccf81f5e5ddd2dfe3",
+				"dweb:/ipfs/QmcABRv6jyTpqdY9D3qwMFwdLr2S2nHurK3Bnqyd4W2Gok"
+			]
+		}
+	},
+	"version": 1
+}

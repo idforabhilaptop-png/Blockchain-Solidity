@@ -1,0 +1,111 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "price",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_price",
+						"type": "uint256"
+					}
+				],
+				"name": "setPrice",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"01_interaction-of-contracts/SodaPrice.sol": "SodaPrice"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"01_interaction-of-contracts/IsodaPrice.sol": {
+			"keccak256": "0x7a22dc8b6dd749652023fc3179f9fbfa2b022a583d383a6057fb81e397291775",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://addb35e5b955412e41f369b0a3b1b06b23c8f58cc3f59381fac1dc15dea47a7d",
+				"dweb:/ipfs/QmdMMnf38su6aEXv9s95E4EKhFSUjCScN42SU8XWNUCgdA"
+			]
+		},
+		"01_interaction-of-contracts/SodaPrice.sol": {
+			"keccak256": "0x4a2ef3c4f10cb5d0458b04ad5635029369fa5855eb17c600e7dc78da7ff27ca7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c8373fb88470c7b49c1e56ba917084e58ca992448797f8b63dd63deea86e7dc6",
+				"dweb:/ipfs/QmPQVx6BjCTRkfSM9PqVpC4wezkNffr5nZgc8qaK9k8AFC"
+			]
+		}
+	},
+	"version": 1
+}

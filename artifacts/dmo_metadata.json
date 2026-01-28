@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myStatus",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_myStatus",
+						"type": "string"
+					}
+				],
+				"name": "setMystatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"01_hello.sol": "dmo"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"01_hello.sol": {
+			"keccak256": "0x9dc8afc8ee32104638555ef58b2b81c850c84d44a08345c352773755c7aa900a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ad1f5f7de60f146e94a0d7bca8c47f96f08619962f149d3b2dcae7779be4ec3d",
+				"dweb:/ipfs/QmYuNy6cPJCDjpjEBNY6QCo5w3iWiLNp6RVgaJixjPkAQN"
+			]
+		}
+	},
+	"version": 1
+}
